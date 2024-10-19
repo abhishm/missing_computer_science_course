@@ -27,3 +27,18 @@ The article web page is [here](https://missing.csail.mit.edu/2019/virtual-machin
 6. Containers provide weaker isolations compare to VM.
 7. Many companies such as Heroku they allow users to define their code and requirements, they spin-off their containers,
    and serve their web servers.
+
+## Exercises
+
+1. Installing hypervisor
+   - I installed virtual box.
+2. Create a debian VM
+   - I installed a debian VM.
+   - I tried the virtual box to use the debian iso file to install debian.
+   - **Though I stuck at UEFI shell script and I did not get the install page for debian.**
+   - The possible cause could be the new MAC chip. 
+
+2. Installing Docker
+   1. There is a docker engine. I think it is a command line utility for creating docker images on linux.
+   2. It is not available on MacOS. It is available as Docker Desktop. 
+   3. I will try to create a ubuntu virtual machine and install docker engine in it.
