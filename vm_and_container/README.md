@@ -31,14 +31,18 @@ The article web page is [here](https://missing.csail.mit.edu/2019/virtual-machin
 ## Exercises
 
 1. Installing hypervisor
-   - I installed virtual box.
+    - I installed virtual box.
 2. Create a debian VM
-   - I installed a debian VM.
-   - I tried the virtual box to use the debian iso file to install debian.
-   - **Though I stuck at UEFI shell script and I did not get the install page for debian.**
-   - The possible cause could be the new MAC chip. 
-
-2. Installing Docker
-   1. There is a docker engine. I think it is a command line utility for creating docker images on linux.
-   2. It is not available on MacOS. It is available as Docker Desktop. 
-   3. I will try to create a ubuntu virtual machine and install docker engine in it.
+    - I installed a debian VM.
+    - I tried the virtual box to use the debian iso file to install debian.
+    - **Though I stuck at UEFI shell script and I did not get the install page for debian.**
+    - The possible cause could be the new MAC chip.
+    - I needed to choose the ISO image mentioned in this blog.
+    - After that it seems that VM is installed but I see only
+      the [terminal](https://www.makeuseof.com/how-to-install-debian-on-virtualbox/). That is suitable for my need.
+    - I created the fork bomb 
+      - `:(){ :|:& };:`
+3. Installing Docker
+    1. There is a docker engine. I think it is a command line utility for creating docker images on linux.
+    2. It is not available on MacOS. It is available as Docker Desktop.
+    3. I will try to create a ubuntu virtual machine and install docker engine in it.
